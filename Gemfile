@@ -9,7 +9,9 @@ group :development do
    gem 'rspec-rails'
 end
 group :test do
+gem 'webrat'
    gem 'rspec-rails'
+ gem 'spork', '0.9.0.rc8'
 end
 
  
